@@ -10,3 +10,5 @@ def main(a):
         return 1
     elif len(a)%2==1 :
         return 0 
+    
+    
