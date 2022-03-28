@@ -15,11 +15,11 @@ def main(s1,s2,s3):
     if   len(a)%2==1 :
         a=str(s1)
         if len(b)%2==1 :
-           b=str(","+s2)
+           b=str(", "+s2)
         elif len(b)%2==0: 
             b=s2[0:1:-1]
         if len(c)%2==1 :
-            c=str(","+s3)
+            c=str(", "+s3)
         elif len(c)%2==0 :
             c=s3[0:1:-1]
     elif len(a)%2==0 :
@@ -27,13 +27,13 @@ def main(s1,s2,s3):
         if len(b)%2==1 :
             b=str(s2)
             if len(c)%2==1 :
-               c=str(","+s3)
+               c=str(", "+s3)
             elif len(c)%2==0 :
                c=s3[0:1:-1]
         elif len(b)%2==0 : 
             b=s2[0:1:-1]
             if len(c)%2==1 :
-               c=str(","+s3)
+               c=str(", "+s3)
             elif len(c)%2==0 :
                c=s3[0:1:-1]
 
