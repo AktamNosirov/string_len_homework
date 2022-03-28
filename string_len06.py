@@ -12,3 +12,4 @@ def main(s1,s2):
     elif len(s1)>len(s2): 
         return s2
 print(main("sdg","frg"))
+
