@@ -12,6 +12,10 @@ def main(s1,s2,s3):
     b=len(s2)%2
     c=len(s3)%2
 
-    return "["+str(s1*a)+", "+str(s2*b)+", "+str(s3*c)+ "]"
+    if a or b or c ==1 :
+        return "["+str(s1*a)+", "+str(s2*b)+", "+str(s3*c)+ "]"
+    else: return "["+"]"
 
-print(main("sdf","acsde", "ab"))
+print(main("zdf","acsd", "ab"))
+
+
