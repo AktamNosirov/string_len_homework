@@ -8,14 +8,29 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    a=len(s1)%2
-    b=len(s2)%2
-    c=len(s3)%2
+    a=s1
+    b=s2
+    c=s3
+    if len(a)%2==1 :
+        a=s1
+    elif len(a)%2==0:
+        a=s1[0:1:-1]
+    if len(b)%2==1 :
+        b=s2
+    elif len(b)%2==0:
+        b=s2[0:1:-1]
+    if len(c)%2==1 :
+        c=s3
+    elif len(c)%2==0:
+        c=s3[0:1:-1]
+    '''a=s1[0:len(a+1):]
+    b=s2[0:len(b+1):]
+    c=s3[0:len(c+1):]'''
 
     if a or b or c ==1 :
-        return "["+str(s1*a)+", "+str(s2*b)+", "+str(s3*c)+ "]"
+        return "["+str(a)+", "+str(b)+", "+str(c)+ "]"
     else: return "["+"]"
 
-print(main("zdf","acsd", "ab"))
+print(main("df3","acsd", "ab"))
 
 
