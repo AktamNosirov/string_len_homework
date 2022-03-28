@@ -8,5 +8,5 @@ def main(s):
     Returns:
         bool: answer
     """
-    return bool(1) if s//100+s//10%10*10+s%10*100==s else bool(0)
-print(main(323))
+    return bool(1) if s[::-1]==s else bool(0)
+print(main("aba"))
