@@ -9,3 +9,5 @@ def main(s):
         bool: answer
     """
     return
+a="sdfh"
+bool(a[0:1:-1])
