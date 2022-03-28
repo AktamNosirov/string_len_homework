@@ -41,7 +41,7 @@ def main(s1,s2,s3):
        
     
 
-    if a or b or c ==1 :
+    if a or b or c == 1 : 
         return "["+str(a)+str(b)+str(c)+"]"
     else: 
         return "["+"]"
