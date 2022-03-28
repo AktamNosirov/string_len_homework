@@ -7,4 +7,6 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+
+    return len(str(a))==len(str(b))
+print(main("sdf", "sdg"))
