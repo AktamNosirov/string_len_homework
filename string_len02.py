@@ -7,9 +7,10 @@ def main(a):
         True or False
     """
     if len(a)%2==0 :
-        return 1
+        return bool(1)
     elif len(a)%2==1 :
-        return 0 
+        return bool(0)
+print(main("edfgdds"))
     
     
     

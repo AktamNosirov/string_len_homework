@@ -8,6 +8,7 @@ def main(a):
     """
     
     return len(a)
+print(main("dfsdf"))
 
 
 
