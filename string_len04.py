@@ -6,4 +6,6 @@ def main(s):
     Returns:
         string
     """
-    return
+
+    return "*"*len(s)
+print (main("sdafs"))
